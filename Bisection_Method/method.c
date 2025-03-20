@@ -1,12 +1,12 @@
 #include <stdio.h>
 #include <math.h>
 
-#define EPSILON 0.01  // Hata toleransı
+#define EPSILON 0.0001  // Hata toleransı
 
 // Örnek fonksiyon: f(x) = x^3 - x - 2
 // Kendi fonksiyonunu değiştirebilirsin
 double func(double x) {
-    return 2*x*x*x - 4*x*x - x + 1;
+    return x*x*x - x - 2;
 }
 
 // İkiye bölme yöntemi
@@ -31,7 +31,7 @@ double bisection(double a, double b) {
 }
 
 int main() {
-    double a = 2, b = 3; // Kökün içinde olduğu bilinen aralık
+    double a = 1, b = 2; // Kökün içinde olduğu bilinen aralık
     double root = bisection(a, b);
     if (root != -1)
         printf("Kok yaklasik olarak: %.4lf\n", root);
