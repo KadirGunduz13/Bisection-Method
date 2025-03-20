@@ -54,5 +54,4 @@ Bu proje MIT Lisansı ile sunulmuştur. Dilediğiniz gibi kullanabilir ve geliş
 ---
 
 📌 **Geliştirici:** [Kadir Gündüz](https://github.com/kadirgunduz)  
-📌 **GitHub:** [Bu projeye göz at!](https://github.com/kadirgunduz/bisection-method)
 
